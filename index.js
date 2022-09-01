@@ -57,7 +57,6 @@ const outputData=(data,dataLimit=true)=>{
     })
     document.getElementById("loader").classList.add("d-none");
 }
-fethingDAta("apple")
 const mobileDetail=async (id)=>{
   const url=`https://openapi.programming-hero.com/api/phone/${id}`;
   const res=await fetch(url);
